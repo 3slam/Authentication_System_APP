@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StraterProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorPrimaryVariant">@color/background_color</item>
+        <item name="android:statusBarColor">@color/background_color</item>
+        <item name="android:windowLightStatusBar"  tools:targetApi="m">true</item>
+
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/main_color</item>
+    </style>
+
+</resources>
